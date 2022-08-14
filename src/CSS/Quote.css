@@ -1,0 +1,51 @@
+/* the page Quote */
+.Quote{
+    background-color:rgb(171, 167, 167);
+    text-align: center;
+}
+
+h1,h4{
+color: white;
+}
+
+#prompt{
+    margin-top: 20px;
+}
+
+/* the chart component */
+#LineChart{
+    background-color:white;
+    width: 1203px !important;
+    display: inline-flex !important;
+}
+
+/* the calender search bar */
+#search-date{
+    padding-bottom: 40px;
+    display: flex;
+}
+
+#search-history-button{
+    border-radius: 6px;
+    height: 380px;
+    width:70px;
+    margin-top: 3px;
+    background-color: rgb(210, 207, 201);
+    font-size: 20px;
+    font-family:Sans-serif;
+    font-weight: 700;
+    color: white;
+    border-top-width: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-width: 2px;
+    border-color: rgb(209, 150, 73);
+}
+
+.rdrDateRangePickerWrapper .rdrCalendarWrapper {
+    height: 380px;
+}
+
+.flex-child:first-child {
+    margin-left: 300px;
+} 

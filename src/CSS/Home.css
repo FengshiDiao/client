@@ -1,0 +1,21 @@
+/* the page Home */
+#home{
+    color:antiquewhite;;
+    text-align: center;
+    padding-top: 250px;
+    background-image: url("https://www.ilsc.com/hubfs/Website/Destinations/Brisbane/Hero-Destination-Brisbane.jpg");
+}
+
+h1.home-text{
+    font-size: 80px;
+}
+
+p.home-text{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#Stocks-button{
+    color:whitesmoke;
+    margin-bottom: 500px;
+}

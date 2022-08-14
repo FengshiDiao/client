@@ -1,0 +1,50 @@
+/* the page Stocks */
+.Stocks{
+    background-color:rgb(171, 167, 167);
+    text-align: center;
+}
+
+h1{
+    padding-top: 15px;
+}
+
+/* the component table */
+.ag-header-cell-label {
+    justify-content: center;
+ }
+ 
+ .ag-row .ag-cell {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+
+.ag-theme-balham{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* the component search bar */
+#search-stock{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search-industry{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search-stock-button{
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#search-clear-button{
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 5px;
+}

@@ -1,0 +1,29 @@
+/* the App */
+.link-text{
+    color: antiquewhite;;
+    text-decoration: unset;
+    padding-left: 10px;
+}
+
+#brand-name{
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+#navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: auto;
+    background-color: rgb(108, 117, 125);
+}
+
+#collapse{
+    padding-top: 4px;
+}
+
+#App-Footer{
+    background-color: rgb(108, 117, 125);
+    height: 30px;
+    text-align: center;
+    color: antiquewhite;
+}

@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
+import {Navbar, NavbarBrand, Collapse, Nav, NavItem} from "reactstrap"
+import {BrowserRouter as Router, Routes ,Route,Link} from "react-router-dom";
+import Home from "./Pages/Home"
+import Stocks from "./Pages/Stocks"
+import Quote from "./Pages/Quote"
 
-function App() {
+function App() { 
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      
+    <Router>
+       <Navbar 
+        id = "navbar"
+        expand="md">
+          <NavbarBrand href="/" id="brand-name">
+            .Stocker
+          </NavbarBrand>
+            <Collapse navbar id='collapse'>
+            <Nav>
+              <NavItem>
+                  <Link to="/" className="link-text">Home</Link>
+              </NavItem>
+              <NavItem>
+                  <Link to="/Stocks" className="link-text">Stocks</Link>
+              </NavItem>
+            </Nav>
+            </Collapse>
+        </Navbar>
+          <div id = "App-Body">
+            <Routes>
+              <Route path="/" element={<Home/>} />
+              <Route path="/Stocks" element={<Stocks/>} />
+              <Route path="/Quote" element={<Quote/>} />
+            </Routes>
+          </div>
+        <footer id = "App-Footer" margin-bottom= "0px">
+            <p>Copyright©2022 Fengshi Diao N10840044</p>
+          </footer>
+</Router>
+</div>
   );
 }
 
